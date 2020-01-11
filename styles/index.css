@@ -1,0 +1,33 @@
+body {
+    background-color: #1AA0E8;
+    font-family: 'Roboto', sans-serif;
+    }
+
+    #robotBG path{
+    fill: #E8E8E8;
+    }
+
+    .animation {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: auto 0;
+    width: 70%;
+    height: 100vh;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    }
+
+    .scene {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    }
+
+    #tips {
+    position: fixed;
+    top:0;
+    left:50%;
+    transform: translateX(-50%);
+    }
